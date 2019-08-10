@@ -8,7 +8,8 @@ a = input()
 
 if a == 4:
 
-	hshs = 2else:
+	hshs = 2
+else:
 
 		print('Взлом пользователей Казахстана: kzh_hack')
 
